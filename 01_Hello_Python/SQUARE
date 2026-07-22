@@ -1,0 +1,7 @@
+def cube(number):
+    c=number*number*number
+    return c
+
+number=int(input("enter the number to be squared"))
+answer=(cube(number))
+print(answer)
